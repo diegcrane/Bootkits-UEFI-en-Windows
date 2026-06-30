@@ -1,6 +1,6 @@
 # Bootkits UEFI en Windows: infección del arranque, persistencia y detección
 
-**Alumno:** Diego López
+**Alumno:** Diego López  
 **Módulo:** 10, Reversing en sistemas operativos Windows  
 **Actividad:** colaborativa  
 **Tema elegido:** proceso de infección del arranque vía Bootkit UEFI
