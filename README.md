@@ -31,8 +31,6 @@ Un malware normal suele ejecutarse cuando el sistema operativo ya está levantad
 
 Ese cambio de posición lo cambia todo. Si el código malicioso se ejecuta antes del sistema operativo, puede preparar una segunda fase, modificar decisiones de arranque, interferir con validaciones o simplemente sobrevivir en zonas que un formateo normal no toca. Por eso este tema aparece asociado a Secure Boot, PatchGuard, DSE, VBS, BitLocker, TPM y a las distintas fases de confianza que Windows va levantando durante el arranque.
 
-El documento se mantiene en un plano de análisis y defensa. No se incluyen pasos para construir, firmar, instalar o desplegar un bootkit. La idea es entender qué piezas intervienen, qué se ha visto en casos reales y qué puede revisar un analista cuando sospecha que el problema no está solo dentro de Windows, sino antes de Windows.
-
 ## 2. Por qué los bootkits siguen siendo relevantes
 
 La época de los bootkits masivos contra MBR quedó bastante atrás, pero la idea no desapareció. Cambió el terreno. Hoy el arranque pasa por UEFI, Secure Boot, bases de datos de firmas, revocaciones, TPM y mecanismos de atestación. Eso eleva mucho el coste técnico, pero también hace que una infección exitosa sea más valiosa.
